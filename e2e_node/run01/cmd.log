@@ -1,0 +1,1 @@
+time -p make test-e2e-node PARALLELISM=1 SKIP="" 2>&1 | tee e2e_node.log
