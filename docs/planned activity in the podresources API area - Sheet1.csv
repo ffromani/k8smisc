@@ -1,0 +1,7 @@
+release,change,new KEP?,Description,What needs to be done?,why?,Links
+1.22,fix,no,Fix shared pool reporting,"KEP edit, PR with fixes, e2e test update",bugfix,https://github.com/kubernetes/enhancements/pull/2201  https://github.com/kubernetes/kubernetes/issues/102190 https://github.com/kubernetes/kubernetes/pull/97415 
+1.23,change,no,Promote GetAllocatableResources to beta,"KEP edit, e2e test update",regular graduation process,
+1.24,change,no,Promote GetAllocatableResources to stable,KEP edit,regular graduation process,
+1.24,enhancement,yes,Watch + Watchallocatable endpoints,"KEP, implementation PR",address acknowledged scalability/performance concern,
+1.25,change,no,Watch + Watchallocatable endpoints to beta,"KEP edit, e2e tests (update at least)",regular graduation process,
+1.27,change,no,Watch + Watchallocatable endpoints to stable,KEP edit,regular graduation process,
