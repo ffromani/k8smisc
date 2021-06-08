@@ -1,0 +1,1 @@
+time -p make test-e2e-node PARALLELISM=1 FOCUS="Serial" SKIP="\[Flaky\]|\[Benchmark\]|\[NodeSpecialFeature:.+\]|\[NodeAlphaFeature:.+\]|\[NodeFeature:Eviction\]" 2>&1 | tee e2e_node.log

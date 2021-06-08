@@ -4,3 +4,4 @@ all runs: check
 
 * run01: first try run, took 24 hours
 * run02: run with the same parameters (bar bugs :) ) of node-kubelet-serial in CI
+* run03: run excluding the Eviction tests. Run 3 times to rule out lucky run.
